@@ -1,0 +1,12 @@
+amd64_microsoft-windows-s..cingstack.resources_
+amd64_microsoft-windows-servicingstack_
+amd64_microsoft.vc80.crt_
+amd64_microsoft.vc90.crt_
+amd64_microsoft.windows.c..-controls.resources_
+amd64_microsoft.windows.common-controls_
+amd64_microsoft.windows.gdiplus_
+x86_microsoft.vc80.crt_
+x86_microsoft.vc90.crt_
+x86_microsoft.windows.c..-controls.resources_
+x86_microsoft.windows.common-controls_
+x86_microsoft.windows.gdiplus_

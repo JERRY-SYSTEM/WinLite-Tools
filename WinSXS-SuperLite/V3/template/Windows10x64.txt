@@ -1,0 +1,17 @@
+amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9554_none_88e038cb2fae7c50
+amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_08e07c8fa840efbe
+amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.
+amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0
+amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82
+amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0
+amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0
+amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1
+amd64_microsoft-windows-s..cingstack.resources_31bf3856ad364e35
+amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0
+x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9554_none_d08d6fa2442aa556
+x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82
+x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82
+x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0
+x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0
+x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1

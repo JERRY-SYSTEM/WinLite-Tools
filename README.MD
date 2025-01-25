@@ -14,12 +14,24 @@
 
 ### WinLite
 
-论坛大佬的系统精简工具，2023更新，仅收集 `1.1` 和 `1.2` 两个开源版本，源码来自论坛热心网友。
+论坛大佬的系统精简工具，2023更新，仅收集 `1.1` 和 `1.2` 两个开源版本，源码来自论坛热心网友，Release里上传了 `1.5` 版本(闭源)。
 
 ### WinSxS-SuperLite
 
-nat_ee大佬开发的WinSXS瘦身工具。
+nat_ee大佬开发的WinSXS瘦身工具，包含 `v2` 和 `v3` 两个版本， `v2` 版本自带一些模板。
 
 ### Windows-Clear
 
 nat_ee大佬开发的基于DISM的系统组件移除工具。
+
+### BypassESU
+
+一个为Windows 7和Server 2008 R2安装扩展安全更新的项目，汉化版。
+
+### SxSExport
+
+功能组件导出工具。
+
+### Windows-Package
+
+nat_ee大佬开发的功能组件移除工具。

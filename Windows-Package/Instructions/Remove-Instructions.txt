@@ -1,0 +1,72 @@
+网址：nat.ee
+批处理：荣耀&制作 QQ:1800619
+批处理脚本，均由本人原创编写。
+本批处理工具仅适合Windows 7 sp1 以上的系统使用！
+注意：不能放在带有空格路径的目录，否则出错。
+QQ交流群：6281379
+TG交流群：https://t.me/nat_ee
+如在使用中有任何问题或者建议，欢迎加入交流。
+----------------------------------------------
+Windows 10 2004 版本无法使用，原因：无法提权。
+
+本批处理的工作原理，是提权至TrustedInstaller权限，修改组件的相关注册表解除删除卸载限制，
+并使用TrustedInstaller权限，执行系统自带的dism命令来删除卸载功能组件。
+并不是无脑删除，而是采取微软的方式来达到合理的删除卸载。
+
+特别注意，有些核心功能组件是不能随便删除卸载的，因为核心组件关乎到其他功能组件的依赖性，
+假如不小心删除卸载了，会导致你使用其他的功能无法调用而出错。所以，一定要在虚拟机上测试删除卸载没问题后，
+再在自己的系统上使用，谨记。
+
+除了能删除卸载 Windows功能窗口里显示的功能，
+有些隐性的功能组件，是不会在 Windows功能窗口里，显示出来的。
+自己要多百度或者谷歌搜索那些你不知道的组件名是那些功能，或者问大神。
+
+
+说明：
+请从完整/精简包列表，提取组件包名
+编辑 Remove-Package.txt 文本，一行一个。
+完整/精简包列表，可以组合在 Remove-Package.txt 文本
+
+本程序是模糊搜索匹配组件包，从而删除关键字相关所有包，支持正则表达式。
+
+如单单删除某包，请在完整包列表提取包名，添加在 Remove-Package.txt 文本
+
+使用精简列表，如在 Remove-Package.txt 文本 添加：Microsoft-Hyper-V
+那么例如下面相关的所有关键字被匹配的组件包将批量删除。
+Microsoft-Hyper-V-ClientEdition-Package
+Microsoft-Hyper-V-ClientEdition-WOW64-Package
+Microsoft-Hyper-V-Hypervisor-onecore-Package
+Microsoft-Hyper-V-Hypervisor-Package
+Microsoft-Hyper-V-Offline-Common-onecore-Package
+Microsoft-Hyper-V-Offline-Common-Package
+Microsoft-Hyper-V-Offline-Common-vm-Package
+Microsoft-Hyper-V-Offline-Core-Group-onecore-Package
+Microsoft-Hyper-V-Offline-Core-Group-Package
+Microsoft-Hyper-V-Offline-Core-Group-servercommon-Package
+Microsoft-Hyper-V-Offline-Core-Group-vm-Package
+Microsoft-Hyper-V-Online-Services-Package
+Microsoft-Hyper-V-Online-Services-vm-Package
+Microsoft-Hyper-V-Package-base-onecore-Package
+Microsoft-Hyper-V-Package-base-Package
+Microsoft-Hyper-V-Services-Package
+
+Core.cmd
+用于删除组件主控脚本
+
+依赖程序：
+NSudoLG
+NSudoLG.exe
+版本： 8.0
+用于提权执行系统任何操作而无障碍。
+官网：https://m2team.github.io/NSudo/zh-hans/
+
+Sed
+sed.exe
+版本：4.8
+用于过滤内容，重复行等操作。
+官网：https://www.cygwin.com/
+
+
+
+
+

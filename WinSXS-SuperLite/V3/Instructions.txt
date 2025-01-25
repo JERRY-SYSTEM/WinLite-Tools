@@ -1,0 +1,64 @@
+::网址：nat.ee
+::QQ群：6281379
+::TG群：https://t.me/nat_ee
+::批处理：荣耀&制作 QQ:1800619
+
+--------------------
+
+功能1：获取 WinSxS 列表
+           使用此功能，您将获取WinSxS文件夹下面所有文件夹名称，然后复制到Get-WinSxS-List.txt
+           Get-WinSxS-List.txt如何使用：
+           例如 您要保留的文件夹 为
+           amd64_server-help-chm.mmc.resources_31bf3856ad364e35_10.0.14393.0_zh-cn_49d8aee2cb52b280
+           只需要往 WinSxS-List.txt 文本 添加
+           amd64_server-help-chm.mmc.resources_
+           或者
+           _server-help-chm.mmc.resources_
+           也可以是完整的文件夹名称。
+           一行一个。
+           批处理支持模糊搜索。
+
+           特别说明：此功能也可以获取大神映像中WinSxS文件夹内剩余的文件夹列表
+                           然后把Get-WinSxS-List.txt修改后的内容，复制到WinSxS-List.txt，进行清理
+
+--------------------
+
+功能2：清理 WinSxS 文件夹
+           无脑强制删除winsxs文件夹里的所有文件夹。
+           而 WinSxS-List.txt 文本里是保留您不被删除的文件夹列表。
+           您自己请多深入研究那些相关文件夹需要保留的，而添加进 WinSxS-List.txt 文本
+           工具无脑，您有脑就行，多花时间反复测试得出适合自己的精简列表即可。
+
+--------------------
+
+功能3：清理 文件
+           删除您不需要的文件，将文件名称添加进 File-List.txt 文本里
+           不管文件在系统里的什么路径位置，您只需要添加这 文件名称 本批处理会自动搜索
+           File-List.txt 使用：
+           一行一个
+           批处理支持模糊搜索。
+
+--------------------
+
+功能4：清理 文件夹
+           删除您不需要的文件夹，将文件夹路径添加进 Folder-List.txt 文本里
+           注意：无须添加盘符
+           Folder-List.txt 使用：
+           例如 要删除的文件夹是 E:\Windows\Panther
+           您只需要 添加 Windows\Panther 就行，也就是不需要前面的 E: 盘符
+           一行一个
+           批处理支持模糊搜索。
+
+--------------------
+文件说明：
+
+01、bin 文件夹：是存放用来提权操作的软件“假如没有这个软件，也就无法强制删除”。
+02、cleanup 文件夹： 是存放各种清理的文本列表，如下：
+       Get-WinSxS-List.txt	获取 WinSxS 列表
+       WinSxS-List.txt		清理 WinSxS 文件夹 需要保留内容的列表
+       File-List.txt		清理 文件 列表
+       Folder-List.txt		清理 文件夹 列表
+       批处理会调用cleanup文件夹里面对应的列表文本进行清理
+03、template 文件夹：是存放作者给您们使用的Winsxs 精简模板
+
+--------------------

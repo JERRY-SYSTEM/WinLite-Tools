@@ -1,0 +1,28 @@
+::网址：nat.ee
+::QQ群：6281379
+::TG群：https://t.me/nat_ee
+::批处理：荣耀&制作 QQ:1800619
+
+本批处理，原理是无脑强制删除winsxs文件夹里的所有文件夹。
+而winsxslist.txt 文本里是保留你不需要删除的文件夹。
+
+你自己请多深入研究那些相关文件夹需要保留的，而添加进winsxslist.txt 文本
+工具无脑，你有脑就行，多花时间反复测试得出适合自己的精简列表即可。
+
+winsxslist.txt使用：
+
+例如 你要保留的文件夹 为
+amd64_server-help-chm.mmc.resources_31bf3856ad364e35_10.0.14393.0_zh-cn_49d8aee2cb52b280
+
+只需要往 winsxslist.txt 文本 添加
+amd64_server-help-chm.mmc.resources_
+
+或者
+_server-help-chm.mmc.resources_
+
+也可以是完整的文件夹名称。
+
+一行一个。
+
+
+批处理支持模糊搜索。
